@@ -1,0 +1,44 @@
+body {background-color:black; font-family: arial; color: white;}
+h1{color:grey; font-family: Verdana;}
+.maindiv{
+    background-color: white;
+    color: black;
+    width: 500px;
+    padding: 20px;
+    border-radius: 25px;
+    /* justify-content: center;
+    align-items: center; */
+    margin: 150px auto;
+}
+.unit{
+    display: flex;
+    padding: 5px 20px;
+}
+button{
+    padding: 5px 20px;
+}
+input{
+    align-items: center;
+}
+#principal{
+    margin-left: 106px;
+    outline: none;
+}
+#myrate{
+    margin-left: 70px;
+    outline: none;
+}
+#years{
+    margin-left: 75px;
+    outline: none;
+}
+footer{
+    margin: 15px 0;
+    font-weight: bold;
+}
+.mark{
+    background-color: yellow;
+}
+#high{
+    background-color: yellow;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="stylesheet" href="style.css">
+    <title>Web App – Simple Interest Calculator</title>
+    </head>
+    <body>
+        <div class="maindiv">
+
+            <h1>Simple Interest Calculator</h1>
+            <div class="unit">
+                Amount <input type="number"  id="principal">  <br/>
+            </div>
+            
+            <div class="unit">
+                Interest Rate <input type="range"  id="myrate" min="1" max="20" value="1" step="0.25">
+                <span id="rate_val"> 1% </span><br>
+            </div>
+
+            <div class="unit">
+                No. of Years 
+                <select id="years">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+                <br/>
+            </div>
+
+            <!-- <div class="unit">
+                Interest : <span id="result"></span><br>
+            </div> -->
+            <div class="unit">
+                <button onclick="compute()">Compute Interest</button>
+            </div>
+            </span>
+
+            <div class="unit">
+                <span id="result"><span id="pri"></span><mark id="r"></mark><mark id="amt"></mark><mark id="future"></mark></span>
+            </div>
+            <footer>
+                © Everyone Can Get Rich <br>
+                This Calculator Belongs To Kislaya Kumar Jamuar
+            </footer>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>
